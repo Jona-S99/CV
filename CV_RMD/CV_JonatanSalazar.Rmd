@@ -45,11 +45,11 @@ tribble(
 
 ## Enero 2019 - Julio 2019
 
-**Asistente de investigación en Laboratorio de Transformaciones Sociales** de la Universidad Diego Portales
+**Asistente de investigación en Laboratorio de Transformaciones Sociales**, de la Universidad Diego Portales
 
 Participación en proyecto Fondecyt No. 11180099, titulado “Agriculturas campesinas e indígenas en movimiento: sistemas alimentarios alternativos y el giro logístico en el Gran Santiago”, bajo la dirección de Martín Arboleda.
 
-Participación activa en las instancias de discusión teórica y metodológica del proyecto. Contactar organizaciones afines, realizar entrevistas y sistematizar información.
+Contribución activa en las instancias de discusión teórica y metodológica del proyecto. Contactar organizaciones afines, realizar entrevistas y sistematizar información.
 
 Producto disponible [aquí](https://transformacionessociales.udp.cl/?publicaciones=soberania-alimentaria-los-alimentos-en-el-proyecto-de-la-autodeterminacion-popular)
 
@@ -108,10 +108,6 @@ tribble(
 * **DeDoose** para el análisis cualitativo: Nivel intermedio
 * **Microsoft Word, Excel y Power Point**: Nivel avanzado
 
-## Idiomas
 
-* Español: Nativo
-* Inglés: Avanzado
-* Italiano: Avanzado
 
 
