@@ -1,0 +1,119 @@
+---
+name: Jonatan
+surname: Salazar
+position: "Sociólogo"
+address: "Santiago, Chile"
+email: "salazarjonatan.soc@gmail.com"
+github: Jona-S99
+linkedin: jonatan-salazar-silva-266b54203
+date: "`r format(Sys.time(), '%B %Y')`"
+output: vitae::awesomecv
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+library(here)
+```
+
+```{r functions}
+readExcelSheets <- function(filename){
+  # read all sheets in .xlsx 
+  all <- readxl::excel_sheets(filename)
+  
+  # import each sheet into a list using readxl::read_excel
+  list <- lapply(all, function(x) readxl::read_excel(filename, sheet = x))
+  
+  # save sheet name for each sheet (list)
+  names(list) <- all
+  
+  # breaks up list and creates a dataframe for each sheet with df names matching sheet names
+  list2env(list, envir = .GlobalEnv)
+}
+```
+
+```{r load-data, message=F, results='hide'}
+filename <- here::here("info.xlsx")
+readExcelSheets(filename)
+```
+
+
+
+# Sobre mí
+
+_Como sociólogo recién egresado he desarrollado a lo largo de mi formación académica un gran interés por el área de análisis de datos. Tal interés me ha llevado a complementar mi formación sociológica y estadística con nuevos conocimientos de programación, específicamente la adopción del lenguaje R como eje central de desarrollo._
+
+_En este sentido, creo que tales conocimientos, sumados a la responsabilidad, constancia y curiosidad que me caracterizan, permitirían insertarme de buena manera a un equipo de analistas, logrando así ser un aporte al área de trabajo y afianzando mis habilidades en la constante relación con mis pares._
+
+# Educación
+
+```{r}
+educacion %>% 
+  detailed_entries(what = degree,
+                   when = year,
+                   with = institution,
+                   where = where)
+```
+
+
+# Experiencia
+
+```{r}
+exp %>% 
+  detailed_entries(what = institucion,
+                   when = dates,
+                   with = cargo,
+                   where = ciudad,
+                   why = details)
+```
+
+# Habilidades
+
+## Cualidades
+
+* Responsabilidad y confiabilidad.
+
+* Planificación, orden y atención a los detalles.
+
+* Pensamiento crítico y capacidad analítica.
+
+## Software
+
+* R 
+
+* SPSS
+
+* Microsoft Word, Excel y Power Point
+
+
+# Certificaciones
+
+```{r}
+cursos %>% 
+  detailed_entries(what = institucion,
+                   when = dates,
+                   with = curso)
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
