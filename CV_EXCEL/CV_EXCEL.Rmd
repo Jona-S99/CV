@@ -37,13 +37,11 @@ filename <- here::here("info.xlsx")
 readExcelSheets(filename)
 ```
 
-
-
 # Sobre mí
 
-_Como sociólogo recién egresado he desarrollado a lo largo de mi formación académica un gran interés por el área de análisis de datos. Tal interés me ha llevado a complementar mi formación sociológica y estadística con nuevos conocimientos de programación, específicamente la adopción del lenguaje R como eje central de desarrollo._
+*Como sociólogo recién egresado he desarrollado a lo largo de mi formación académica un gran interés por el área de análisis de datos. Tal interés me ha llevado a complementar mi formación sociológica y estadística con nuevos conocimientos de programación, específicamente la adopción del lenguaje R como eje central de desarrollo.*
 
-_En este sentido, creo que tales conocimientos, sumados a la responsabilidad, constancia y curiosidad que me caracterizan, permitirían insertarme de buena manera a un equipo de analistas, logrando así ser un aporte al área de trabajo y afianzando mis habilidades en la constante relación con mis pares._
+*En este sentido, creo que tales conocimientos, sumados a la responsabilidad, constancia y curiosidad que me caracterizan, permitirían insertarme de buena manera a un equipo de analistas, logrando así ser un aporte al área de trabajo y afianzando mis habilidades en la constante relación con mis pares.*
 
 # Educación
 
@@ -54,7 +52,6 @@ educacion %>%
                    with = institution,
                    where = where)
 ```
-
 
 # Experiencia
 
@@ -67,24 +64,33 @@ exp %>%
                    why = details)
 ```
 
+# Publicaciones y Ponencias
+
+```{r}
+publi %>% 
+  detailed_entries(with = degree,
+                   where = where,
+                   what = lugar,
+                   when = year)
+```
+
 # Habilidades
 
 ## Cualidades
 
-* Responsabilidad y confiabilidad.
+-   Responsabilidad y confiabilidad.
 
-* Planificación, orden y atención a los detalles.
+-   Planificación, orden y atención a los detalles.
 
-* Pensamiento crítico y capacidad analítica.
+-   Pensamiento crítico y capacidad analítica.
 
 ## Software
 
-* R 
+-   R
 
-* SPSS
+-   SPSS
 
-* Microsoft Word, Excel y Power Point
-
+-   Microsoft Word, Excel y Power Point
 
 # Certificaciones
 
@@ -94,26 +100,3 @@ cursos %>%
                    when = dates,
                    with = curso)
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
