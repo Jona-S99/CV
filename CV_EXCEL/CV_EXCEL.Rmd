@@ -4,6 +4,7 @@ surname: Salazar
 position: "Sociólogo"
 address: "Santiago, Chile"
 email: "salazarjonatan.soc@gmail.com"
+www: jonatansalazar.netlify.app
 github: Jona-S99
 linkedin: jonatan-salazar-silva-266b54203
 date: "`r format(Sys.time(), '%B %Y')`"
@@ -37,13 +38,11 @@ filename <- here::here("info.xlsx")
 readExcelSheets(filename)
 ```
 
+# Perfil profesional
 
+Sociólogo de la Universidad Diego Portales, con un año de experiencia realizando labores de enseñanza, investigación y análisis de datos. Persona organizada, responsable y siempre motivada en aprender nuevas habilidades. Capacidad de trabajo autónomo y en equipos. Con intereses y conocimientos en estadística descriptiva, visualización de datos y estadística inferencial mediante técnicas de machine learning utilizando software SPSS, lenguaje de programación R y manejo de otras herramientas tecnológicas como Git y GitHub.
 
-# Sobre mí
-
-_Como sociólogo recién egresado he desarrollado a lo largo de mi formación académica un gran interés por el área de análisis de datos. Tal interés me ha llevado a complementar mi formación sociológica y estadística con nuevos conocimientos de programación, específicamente la adopción del lenguaje R como eje central de desarrollo._
-
-_En este sentido, creo que tales conocimientos, sumados a la responsabilidad, constancia y curiosidad que me caracterizan, permitirían insertarme de buena manera a un equipo de analistas, logrando así ser un aporte al área de trabajo y afianzando mis habilidades en la constante relación con mis pares._
+*[Click aquí para ver portafolio web](https://jonatansalazar.netlify.app/)*
 
 # Educación
 
@@ -54,7 +53,6 @@ educacion %>%
                    with = institution,
                    where = where)
 ```
-
 
 # Experiencia
 
@@ -67,24 +65,33 @@ exp %>%
                    why = details)
 ```
 
+# Publicaciones y Ponencias
+
+```{r}
+publi %>% 
+  detailed_entries(with = degree,
+                   where = where,
+                   what = lugar,
+                   when = year)
+```
+
 # Habilidades
 
 ## Cualidades
 
-* Responsabilidad y confiabilidad.
+-   Responsabilidad y confiabilidad.
 
-* Planificación, orden y atención a los detalles.
+-   Planificación, orden y atención a los detalles.
 
-* Pensamiento crítico y capacidad analítica.
+-   Pensamiento crítico y capacidad analítica.
 
 ## Software
 
-* R 
+-   R
 
-* SPSS
+-   SPSS
 
-* Microsoft Word, Excel y Power Point
-
+-   Microsoft Word, Excel y Power Point
 
 # Certificaciones
 
@@ -94,26 +101,3 @@ cursos %>%
                    when = dates,
                    with = curso)
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

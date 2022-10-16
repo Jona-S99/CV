@@ -37,3 +37,9 @@ vignettes/*.pdf
 
 # R Environment Variables
 .Renviron
+
+# Carpeta josefa
+/CV_Josefa
+
+# Carpeta camila
+/CV_Camila
