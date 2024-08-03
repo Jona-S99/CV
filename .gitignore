@@ -43,3 +43,7 @@ vignettes/*.pdf
 
 # Carpeta camila
 /CV_Camila
+
+.DS_Store
+Icon?
+Icon
