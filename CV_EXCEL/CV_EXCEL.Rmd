@@ -2,9 +2,8 @@
 name: Jonatan
 surname: Salazar
 position: "Sociólogo"
-address: "Santiago, Chile"
 email: "salazarjonatan.soc@gmail.com"
-www: jonatansalazar.netlify.app
+www: jona-s99.github.io/Portafolio_qmd/
 github: Jona-S99
 linkedin: jonatan-salazar-silva-266b54203
 date: "`r format(Sys.time(), '%B %Y')`"
@@ -40,9 +39,9 @@ readExcelSheets(filename)
 
 # Perfil profesional
 
-Sociólogo de la Universidad Diego Portales, con un año de experiencia realizando labores de enseñanza, investigación y análisis de datos. Persona organizada, responsable y siempre motivada en aprender nuevas habilidades. Capacidad de trabajo autónomo y en equipos. Con intereses y conocimientos en estadística descriptiva, visualización de datos y estadística inferencial mediante técnicas de machine learning utilizando software SPSS, lenguaje de programación R y manejo de otras herramientas tecnológicas como Git y GitHub.
+Sociólogo con años de experiencia en consultoría de estudios sociales. Se especializa en el trabajo con datos para apoyar los procesos de investigación y toma de decisiones. Realiza tareas de ETL, análisis y visualización de datos, así como de programación de cuestionarios en plataformas tales como SurveyToGo y Survey Solutions. A su vez, gestiona la transferencia de flujos de información entre los diferentes departamentos en un proceso integral, garantizando la coherencia y la eficiencia en el manejo de datos. Desarrolla soluciones innovadoras a través de la programación en R, incluyendo elementos de IA para optimizar procesos y fortalecer la capacidad analítica de la organización.
 
-*[Click aquí para ver portafolio web](https://jonatansalazar.netlify.app/)*
+*[Click aquí para ver portafolio web](https://jona-s99.github.io/Portafolio_qmd/)*
 
 # Educación
 
